@@ -80,7 +80,7 @@
     padding: 10px;
     transition: var(--transition);
 }
-.calc-keys input{
+.calc-keys input, .calc-keys a{
     background-color: var(--key-background);
     color: var(--key-color-bottom);
     border: 2px solid var(--key-background);
@@ -90,7 +90,7 @@
     height: 35px;
     transition: var(--transition);
 }
-#reset, #del{
+#reset, #del, #fahr{
     background-color: var(--key-blue-background);
     color: #FFF;
     box-shadow: 1px 1.5px 1px var(--key-blue-shadow);
@@ -116,7 +116,7 @@
     background-color: hsla(0, 0%, 100%, 0);
     transition: 0.5s;
 }
-#reset:hover, #del:hover{
+#reset:hover, #del:hover, #fahr:hover{
     border: 2px solid var(--key-blue-background);
     color: var(--key-blue-background);
     background-color: hsla(0, 0%, 100%, 0);
@@ -224,3 +224,31 @@ input[type=range]::-ms-thumb {
 }
 
 /* ======================= Theme 2 ======================= */
+#fahr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
+    word-break: break-all;
+    height: auto;
+}
+
+.container-calc{
+    height: 100vh;
+}
+
+#centi, #fheit{
+    height: 80px;
+}
+
+.centitext{
+    font-family: 'Century gothic';
+    font-size: 0.9em;
+    font-weight: 500;
+    background-color: #fafafa;
+    border: 2px solid #CED4DA;
+    border-top: none;
+}
