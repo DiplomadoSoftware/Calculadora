@@ -15,11 +15,11 @@ function input(num){
 
 // Calculator logic
 function calc(){
-    if(result.value != ""){
+    if(result.value !== ""){
         let result2  = result.value;
         result.value = eval(result2)
     } else{
-        alert("Erro! Adicione valores válidos.")
+        alert("Error, Por favor agrege valores validos.")
     }
 }
 
@@ -40,9 +40,9 @@ function del(){
     ====================================================
 */
 
-// All colors for differents themes
+// All colors for different themes
 const theme = {
-    defaul(){
+    default(){
         root.style.setProperty('--background'          , '#3a4764');
         root.style.setProperty('--background-dark'     , '#232c43');
         root.style.setProperty('--background-very-dark', '#182034');
@@ -110,20 +110,20 @@ if (darkThemeMq.matches) {
     theme.light();    
 } else {
     document.getElementById('btnTheme').value = "1";
-    theme.defaul();    
+    theme.default();
 }
 
-// Create a function for recive the value of range input
+// Create a function for receive the value of range input
 function myFunction_set(val) {
     // receiving the input type range value
     document.getElementById('btnTheme').value = val; 
 
     // changing the theme with the results above
-    if(val == 1){
-        theme.defaul();
+    if(val === 1){
+        theme.default();
     } 
      
-    else if(val == 2){
+    else if(val === 2){
         theme.light();
     }
     
