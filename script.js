@@ -3,6 +3,7 @@
     ================= CALCULATOR LOGIC =================
     ====================================================
 */ 
+//script funcion calcular masa
 let entrada=document.getElementById("entrada");
 let salida=document.getElementById("salida");
 
