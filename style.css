@@ -1,6 +1,31 @@
 /* Importing Font */
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
 
+
+.contenedor{
+    width: 70vh;
+    background-color: #2f6b8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .resultado{
+        
+        width: 150%;
+        margin: 15px 0;
+        background-color: rgb(253, 253, 253);
+        color: rgb(14, 1, 1);
+        padding: 15px 0;
+        font-size: 15px;
+        
+        
+        }
+    
+    .estilo{
+    width: 45%;
+    }
+
 /* Font settings */
 *{
     font-family: 'Spartan', sans-serif;
