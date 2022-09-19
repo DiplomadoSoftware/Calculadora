@@ -126,7 +126,7 @@
     padding: 10px;
     transition: var(--transition);
 }
-.calc-keys input, .calc-keys a{
+.calc-keys input, .calc-keys a, .calc-keys button{
     background-color: var(--key-background);
     color: var(--key-color-bottom);
     border: 2px solid var(--key-background);
