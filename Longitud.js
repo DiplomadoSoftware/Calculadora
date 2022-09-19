@@ -1,8 +1,4 @@
 //script funcion calcular longitud
-function emergente(){
-    location.href="FuncionLongitud.html"
-
-}
 let entrada=document.getElementById("entrada");
 let salida=document.getElementById("salida");
 
