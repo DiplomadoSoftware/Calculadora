@@ -1,4 +1,10 @@
+// boton redireccionar
+function redireccion(){
+  location.href="Funcionalidades.html"
+}
+
 //script funcion calcular masa
+
 let entrada=document.getElementById("entrada");
 let salida=document.getElementById("salida");
 
