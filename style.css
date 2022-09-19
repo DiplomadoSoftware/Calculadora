@@ -2,31 +2,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
 
 .contenedor{
-width: 100vh;
-background-color: #5e8b7e;
-display: flex;
-align-items: center;
-justify-content: center;
+    width: 100vh;
+    background-color: #5e8b7e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .estilo{
-width: 45%;
+    width: 45%;
 }
+
+.contenedor{
+    width: 70vh;
+    background-color: #2f6b8e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .resultado{
+        width: 150%;
+        margin: 15px 0;
+        background-color: rgb(253, 253, 253);
+        color: rgb(14, 1, 1);
+        padding: 15px 0;
+        font-size: 15px;
+
+
+        }
+
+    .estilo{
+    width: 45%;
+    }
+
 /* Font settings */
 *{
     font-family: 'Spartan', sans-serif;
 }
 
 .resultado{
-    
+
     width: 75%;
     margin: 10px 0;
     background-color: rgb(253, 253, 253);
     color: rgb(14, 1, 1);
     padding: 10px 0;
     font-size: 15px;
-    
-    
+
+
     }
 
 /* Cores */
@@ -103,7 +126,7 @@ width: 45%;
     padding: 10px;
     transition: var(--transition);
 }
-.calc-keys input{
+.calc-keys input, .calc-keys a, .calc-keys button{
     background-color: var(--key-background);
     color: var(--key-color-bottom);
     border: 2px solid var(--key-background);
@@ -113,7 +136,7 @@ width: 45%;
     height: 35px;
     transition: var(--transition);
 }
-#reset, #del{
+#reset, #del, #fahr{
     background-color: var(--key-blue-background);
     color: #FFF;
     box-shadow: 1px 1.5px 1px var(--key-blue-shadow);
@@ -139,7 +162,7 @@ width: 45%;
     background-color: hsla(0, 0%, 100%, 0);
     transition: 0.5s;
 }
-#reset:hover, #del:hover{
+#reset:hover, #del:hover, #fahr:hover{
     border: 2px solid var(--key-blue-background);
     color: var(--key-blue-background);
     background-color: hsla(0, 0%, 100%, 0);
@@ -243,10 +266,35 @@ input[type=range]::-ms-thumb {
 }
 /* This make user can click and drag the button */
 .toggle input{
- width: 100%;
-
+    width: 100%;
 }
 
-
 /* ======================= Theme 2 ======================= */
+#fahr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
+    word-break: break-all;
+    height: auto;
+}
 
+.container-calc{
+    height: 100vh;
+}
+
+#centi, #fheit{
+    height: 80px;
+}
+
+.centitext{
+    font-family: 'Century gothic';
+    font-size: 0.9em;
+    font-weight: 500;
+    background-color: #fafafa;
+    border: 2px solid #CED4DA;
+    border-top: none;
+}
