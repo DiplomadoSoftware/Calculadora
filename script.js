@@ -3,6 +3,7 @@
     ================= CALCULATOR LOGIC =================
     ====================================================
 */ 
+<<<<<<< HEAD
 //script funcion calcular masa
 let entrada=document.getElementById("entrada");
 let salida=document.getElementById("salida");
@@ -57,6 +58,8 @@ function convertir(){
 
 }
 
+=======
+>>>>>>> alopez
 // get the result element
 let result  = document.getElementById("result");
 
