@@ -1,6 +1,6 @@
 // boton redireccionar
 function redireccion(){
-  location.href="Funcionalidades.html"
+  location.href="./Funcionalidades.html"
 }
 
 //script funcion calcular masa
@@ -20,7 +20,7 @@ function convertir(){
     numero=entrada.value;
     numero = parseFloat(numero);
 
-    if(selector.value=="Masa"){
+    if(selector.value==="Masa"){
   operacion = numero*1000;
   resultado.innerHTML=numero +" kilo(s) equivalen a "+operacion+" gramos";
   salida.value=parseFloat(operacion);
