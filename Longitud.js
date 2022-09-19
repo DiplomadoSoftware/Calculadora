@@ -1,13 +1,10 @@
-//script funcion calcular masa
-
+//script funcion calcular longitud
 let entrada=document.getElementById("entrada");
 let salida=document.getElementById("salida");
 
 entrada.addEventListener('keyup',convertir);
 resultado = document.getElementById("resultado");
 
-/*selector = document.getElementById("selector");
-selector = addEventListener('change',convertir);*/
 let operacion;
 
 function convertir(){
@@ -15,11 +12,11 @@ function convertir(){
     numero=entrada.value;
     numero = parseFloat(numero);
 
-    if(selector.value==="Masa"){
-  operacion = numero*1000;
-  resultado.innerHTML=numero +" kilo(s) equivalen a "+operacion+" gramos";
-  salida.value=parseFloat(operacion);
-  
 
-    }
+  operacion = numero*100;
+  resultado.innerHTML=numero +" Metro(s) = "+operacion+" Centimetro(s)";
+  salida.value=parseFloat(operacion);
+
+
+
 }

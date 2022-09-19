@@ -3,6 +3,8 @@
     ================= CALCULATOR LOGIC =================
     ====================================================
 */ 
+
+
 // get the result element
 let result  = document.getElementById("result");
 
@@ -35,10 +37,12 @@ function del(){
 
 // boton redireccionar
 function redireccion(){
-    location.href="Funcionalidades.html"
+    location.href="./Funcionalidades.html"
 }
 
-
+function emergente(){
+    location.href="./FuncionLongitud.html"
+}
 
 
 /*
